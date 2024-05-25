@@ -19,6 +19,11 @@
 
 #include "quantum.h"
 
+void keyboard_post_init_user(void) {
+  // Customise these values to desired behaviour
+  debug_enable=true;
+}
+
 // clang-format off
 #ifdef RGB_MATRIX_ENABLE
 /**

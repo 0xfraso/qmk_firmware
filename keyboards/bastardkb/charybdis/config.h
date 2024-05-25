@@ -18,6 +18,8 @@
 
 #pragma once
 
+#define QUICK_TAP_TERM 0
+
 /* Pointing device configuration. */
 
 // Enable use of pointing device on slave split.
