@@ -20,6 +20,9 @@
 /* Handedness. */
 #define MASTER_LEFT
 
+#define USB_SUSPEND_WAKEUP_DELAY 1000
+#undef NO_SUSPEND_POWER_DOWN
+
 // To use the handedness pin, resistors need to be installed on the adapter PCB.
 // If so, uncomment the following code, and undefine MASTER_RIGHT above.
 // #define SPLIT_HAND_PIN GP15
