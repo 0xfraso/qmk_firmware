@@ -1,0 +1,13 @@
+#pragma once
+
+#define MATRIX_ROWS 4
+#define MATRIX_COLS 10
+
+#define MATRIX_ROW_PINS {B1, B3, B2, B6}
+#define MATRIX_COL_PINS {D3, D1, D4, F5, D2, C6, F6, E6, B4, B5}
+
+#define DIODE_DIRECTION COL2ROW
+
+#define VENDOR_ID 0xFEED
+#define PRODUCT_ID 0x0036
+#define DEVICE_VER 0x0001
